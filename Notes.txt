@@ -1,0 +1,39 @@
+<div class='Hobbies'>
+ <ul>
+ 	<div class='Hobbie'>
+ 	<div><li id='hobby'>MUSIC</li>
+ 		<img src="./Images/icons8-musical-notes-filled.png" class='icon'></div>
+ 	<div><li id='hobby'>BLOG</li>
+ 		<img src="./Images/icons8-hand-with-pen-.png" class='icon'></div>
+ 	<div><li id='hobby'>INTERNET SURF</li>
+ 		<img src="./Images/icons8-traveler.png" class='icon'></div>
+ 	<div><li id='hobby'>TRAVEL</li>
+ 		<img src="./Images/icons8-beach-filled.png" class='icon'></div>
+ 	</div>
+ </ul>
+	</div>
+
+	--TO DO--
+	About
+
+	Education
+	->Tilt
+	->try cale3d(2, 0.7, 0.2)
+
+	Experience
+
+
+	Skills
+
+
+	Certifications
+
+
+	Projects
+	->Add result then code on icon
+
+	Contact
+
+
+	Blog
+	->Description

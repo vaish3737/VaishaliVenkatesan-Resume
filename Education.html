@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./Styles/new.css">
+
+	<style type="text/css">
+		
+		
+        .Education{
+            padding:2vw;
+        }
+
+
+		h1,h3,h4,p,li,ul{
+			color: white;
+            font-family: 'Baloo Tammudu', cursive;
+		}
+		.Edu{
+			display: flex;
+			justify-content: center;
+		}
+
+		.timeline{
+			border-left:0.4vw solid purple ;
+			list-style-type: none;
+			
+			background: #a670b9;
+			padding:10px 15px;
+			position: relative;
+
+		}
+
+		.year{
+			right: 25%;
+			position: relative;
+			text-shadow: 1.5px;
+			/*border-bottom: 2px dashed purple;*/
+
+		}
+
+
+		::before, ::after {
+		    position: absolute;
+	        display: block;
+	        top: 0;
+         }
+
+         .year::after {
+
+         	border-radius: 50%;
+         	box-shadow: 0 0 0 0.5vw;
+         	content: "";
+         	height:5.5px;
+         	width: 5.5px;
+         	top:5px;
+         	left: 20%;
+         	color:#AE46AE; 
+         	/*good color 8B008B*/
+			
+         }
+
+
+         .GPA{
+         	border-bottom:2px dashed purple ;
+         	padding: 0;
+         	margin: 0;
+         }
+
+        
+
+        
+         #hobby
+         {
+         	float: left ;
+         	width: 25%;
+         	list-style-type: none;
+            font-family: 'Baloo Tammudu', cursive;
+
+		}
+
+		.icon{
+			border: 2px solid purple;
+			padding: 25px;
+            margin-top: 30px;
+            margin-left: 30px;
+            border-radius: 50%;
+           
+
+		}
+
+		#icon :hover { 
+			
+            
+	       background: purple;
+           transform: scale(1.2,1.3);
+          
+
+		}
+
+        .Ico li{
+            float: left;
+            width: 24.6%;
+            list-style-type: none;
+
+        }
+
+       
+		
+	</style>
+	<title>Education</title>
+</head>
+<body>
+   <nav>
+	  <a href="index.html">ABOUT </a>
+      <a href="#">EDUCATION</a>
+      <a href="Experience.html">EXPERIENCE</a>
+      <a href="Skills.html">SKILLS</a>
+      <a href="Certifications.html">CERTIFICATIONS</a>
+      <a href="Projects.html">PROJECTS</a>
+      <a href="Contact.html">CONTACT</a>
+      <a href="Posts.html">BLOG</a>
+      </nav>
+
+     <div class="Education">
+     <h1>Timeline</h1><br><br>
+     <div class="Edu">
+     
+     
+     <ul class='timeline'>
+     	<li class='year'><b>2019</b></li>
+     	<h3>Texas A & M University</h3>
+     	<h4>Master of Science</h4>
+     	<p>Major in Computer Science</p>
+     	<div class='GPA'><p>GPA 3.89</p></div>
+     	<li class='year'><b>2017</b></li>
+     	<br><br>
+
+     	<li class='year'><b>2015</b></li>
+     	<h3>Meenakshi College of Engineering</h3>
+     	<h4>Bachelor of Engineering</h4>
+     	<p>Major in Computer Science</p>
+     	<div class='GPA'><p>GPA 3.68</p></div>
+     	<li class='year'><b>2011</b></li>
+     	<br>
+     </ul>
+ </div>
+
+ <h3>HOBBIES AND INTERESTS</h3>
+ 
+
+    <div class='Hobbies'>
+ <ul>
+   
+    <li id='hobby'>MUSIC</li>
+        
+    <li id='hobby'>BLOG</li>
+       
+    <li id='hobby'>NET SURF</li>
+        
+    <li id='hobby'>TRAVEL</li></ul></div>
+ 
+    
+
+    <div class="Ico">
+
+    <li id=icon><img src="./Images/icons8-musical-notes-filled.png" class='icon'></li>
+    <li id=icon><img src="./Images/icons8-hand-with-pen-.png" class='icon'></li>
+    <li id=icon><img src="./Images/icons8-traveler.png" class='icon'></li>
+    <li id=icon><img src="./Images/icons8-beach-filled.png" class='icon'></li>
+
+ 
+    </div>
+</div>
+   
+</body>
+</html>
